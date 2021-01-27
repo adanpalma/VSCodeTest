@@ -2,6 +2,11 @@ import unittest
 import calc
 
 
+lista = [range(10)]
+
+a = "andres"
+
+
 class TestCalc(unittest.TestCase):
     def test_add(self):
         self.assertEqual(calc.add(5, 5), 10)
