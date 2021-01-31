@@ -95,6 +95,9 @@ with open("books.txt") as f:
 print(text)
 
 nums = (55, 44, 33, 22)
+print(3)
+
+
 print(max(min(nums[:2]), abs(-42)))
 
 txt = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
